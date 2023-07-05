@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+</head>
+<title>Principal taller</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="imagenes/logo2.png" alt="">
+                    <h2>Mecanica<span class="text-muted">Inmotos</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="fa-solid fa-grip"></i>
+                </div>
+
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span> <i class="fa-solid fa-xmark"></i></span>
+                    <h3>Principal</h3>
+                </a>
+                <a href="#" class="active">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Reparaciones</h3>
+                </a>
+                <a href="#">
+                    <span><i class="fa-solid fa-shuttle-space"></i></span>
+                    <h3>Respuestos</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span> <i class="fa-solid fa-person"></i></span>
+                    <h3>Clientes</h3>
+                </a>
+                <a href="#">
+                    <span> <i class="fa-solid fa-motorcycle"></i></span>
+                    <h3>Motos</h3>
+                </a>
+
+                <a href="#">
+                    <span> <i class="fa-solid fa-right-from-bracket"></i></span>
+                    <h3>salir</h3>
+                </a>
+
+            </div>
+        </aside>
+
+        <!--------END of aside------>
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+             </div>
+
+             <div class="insights">
+                <div class="sales">
+                    <span><i class="fa-solid fa-chart-simple"></i></i></span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total Reparaciones</h3>
+                            <h1>$255.258</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted"> last 24 hs</small>
+                    <!------------------End of sales -->
+                </div>
+                <div class="income">
+                    <span><i class="fa-solid fa-chart-simple"></i></i></span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total terminados</h3>
+                            <h1>$255.258</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted"> last 24 hs</small>
+                    <!------------------End of reparaciones -->
+                </div>
+                <div class="expenses">
+                    <span><i class="fa-solid fa-chart-simple"></i></i></span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total respuestos</h3>
+                            <h1>$255.258</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>43%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted"> last 24 hs</small>
+                    <!------------------End of Respuestos -->
+                </div>
+              
+             </div>
+
+
+             <!--REcente order-->
+             <div>
+                <a class="a-nuevo">nuevo cliente</a>
+             </div>
+             <div class="recent-order">
+                    <h2>Recent orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>nombre</th>
+                                <th>apellido</th>
+                                <th>moto</th>
+                                <th>patente</th>
+                                <th>estado</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Marcos</td>
+                                <td>diaz</td>
+                                <td>Kawasaki iversys 300</td>
+                                <td>ouy889</td>
+                                <td>Falta</td>
+                            </tr>
+                        </tbody>
+                    </table>
+             </div>
+        </main>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+</html>
